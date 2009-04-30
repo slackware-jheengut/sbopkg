@@ -1,3 +1,19 @@
+Thu Apr 30 14:36:08 UTC 2009
+Sbopkg 0.27.2 released.  This version contains the following fixes and
+enhancements:
+
+  * Remove a stale 'find' call, which slightly improves the update feature.
+  * Add acroread->adobe-reader and GNOME-Colors->gnome-colors to
+    sbopkg-renames.new.
+  * Display a message when no packages are installed instead of doing nothing.
+  * Properly quote the current working directory variable in the event there
+    are spaces in the directory name.
+  * Fix a bug where 'sbopkg -c -v local' would display a dialog even though
+    running in cli mode.
+  * Fix issue where the 'games' directory was non-browsable due to a
+    slack-desc file containing double-quotes in the first line; thanks to
+    Glenn Becker for the original bug report.
++--------------------------+
 Tue Apr  7 13:32:05 UTC 2009
 Sbopkg 0.27.1 released.  This version contains the following fixes and
 enhancements:
