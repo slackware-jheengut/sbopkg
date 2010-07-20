@@ -1,3 +1,10 @@
+2010-07-19 21:10
+
+Sbopkg 0.33.2 released.  This version contains the following fixes and
+enhancements:
+
+  * fix security issue involving unsafe creation of temp{dir,file}
++--------------------------+
 Thu May 27 18:13:59 UTC 2010
 Sbopkg 0.33.1 released.  This version contains the following fixes and
 enhancements:
